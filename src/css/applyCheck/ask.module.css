@@ -1,0 +1,47 @@
+/* 폼 컨테이너 스타일 */
+.formContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F0F8FF;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+
+/* 라벨 스타일 */
+.formContainerLabel {
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
+
+/* 인풋 박스 스타일 */
+.formContainerInput {
+
+    width: 98%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+}
+
+/* 전송 버튼 스타일 */
+.formSubmit {
+    display: block;
+    margin: 10px auto;
+
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.formSubmit:hover {
+    background-color: #0056b3;
+}

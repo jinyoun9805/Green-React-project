@@ -1,0 +1,39 @@
+.login:hover {
+    color: #27ae60;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.point {
+    cursor: pointer;
+    position: relative;
+    top: -1.7px;
+}
+
+.point:hover {
+    color: #27ae60;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .flex {
+        display: flex;
+        gap: 10vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .point {
+        cursor: pointer;
+        position: relative;
+        top: -1.7px;
+        text-align: center;
+    }
+
+}

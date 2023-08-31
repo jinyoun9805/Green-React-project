@@ -1,0 +1,21 @@
+.footerContener {
+    border-top: 1px solid #3498DB;
+}
+
+.flex {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.copyright {
+    position: relative;
+    top: 1%;
+}
+
+.li {
+    display: flex;
+    gap: 55px;
+
+}

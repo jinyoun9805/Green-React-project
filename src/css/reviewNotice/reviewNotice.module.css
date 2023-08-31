@@ -1,0 +1,66 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.reviewPage {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.reviewList {
+    list-style: none;
+    margin-bottom: 15px;
+    border: 1px solid #007bff;
+    border-radius: 20px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+.reviewItem {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.star,
+.reviewText,
+.title {
+    font-weight: bold;
+}
+
+.editButton,
+.deleteButton {
+    background-color: #007bff;
+    margin: 10px 0;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.teacher1 {
+    margin-right: 20px;
+}
+
+.btnContener {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.noReview {
+    font-style: italic;
+    color: #888;
+}

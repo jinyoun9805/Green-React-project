@@ -1,0 +1,70 @@
+.headerContener {
+    min-height: 80px;
+    gap: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #3498DB;
+}
+
+.h2 {
+
+    font-size: 1.8rem;
+    color: #3498DB;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.hearder_btn {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .headerContener {
+        justify-content: space-between;
+    }
+
+    .navbarmenu {
+        display: none;
+    }
+
+    .hearder_btn {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .active {
+        color: #ffffff;
+        display: block;
+        position: absolute;
+        z-index: 10;
+        top: 80px;
+        width: 93%;
+        height: 100%;
+        background: #3498DB;
+    }
+
+    .ul {
+        width: 100%;
+        height: 100%;
+        background-color: #3498DB;
+        padding: 8px 12px;
+    }
+
+    .navbar {
+        display: flex;
+        gap: 2vw;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}

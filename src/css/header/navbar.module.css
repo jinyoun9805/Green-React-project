@@ -1,0 +1,22 @@
+.flex {
+    display: flex;
+    gap: 2vw;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .flex {
+        display: flex;
+        color: #ffffff;
+        gap: 10vw;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-bottom: 65px;
+        border-bottom: 1px solid beige;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}

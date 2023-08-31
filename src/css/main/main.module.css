@@ -1,0 +1,10 @@
+@media screen and (min-width: 1000px) {
+    .ul {
+        height: 280vh;
+        overflow: hidden;
+    }
+
+    .li {
+        position: relative;
+    }
+}

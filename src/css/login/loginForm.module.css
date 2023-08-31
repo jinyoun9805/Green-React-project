@@ -1,0 +1,304 @@
+.article {
+    position: relative;
+    top: 10%;
+    margin: 0 auto;
+    width: 50vw;
+    height: 55vh;
+    padding: 40px;
+    border: 2px solid #333333;
+    border-radius: 20px;
+}
+
+.h2 {
+    text-align: center;
+    margin: 40px;
+    font-size: 1.8rem;
+    color: #3498DB;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.input {
+    height: 40px;
+    width: 40vw;
+    font-size: 15px;
+    margin: 30px 20px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 20px;
+    background-color: rgb(233, 233, 233);
+}
+
+.label {
+    color: #3498DB;
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    padding: 10px 25px;
+    margin-right: 10px;
+    border: 2px solid #333333;
+    border-radius: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    line-height: 39px;
+    padding: 0;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #333333;
+    border: 2px solid #27ae60;
+    background-color: #27ae60;
+    color: #ffffff;
+}
+
+.btn span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.btn:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn:after {
+    width: 0%;
+    height: 2px;
+}
+
+.btn hover:before {
+    height: 100%;
+
+}
+
+.btn:hover:after {
+    width: 100%;
+}
+
+.btn span:before,
+.btn span:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #000;
+    transition: all 0.3s ease;
+}
+
+.btn span:before {
+    width: 2px;
+    height: 0%;
+}
+
+.btn span:after {
+    width: 0%;
+    height: 2px;
+}
+
+.btn span:hover:before {
+    height: 100%;
+}
+
+.btn span:hover:after {
+    width: 100%;
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
+@media all and (min-width:480px) and (max-width:767px) {
+
+    .btn {
+        width: 130px;
+        height: 40px;
+        padding: 10px 25px;
+        margin-right: 10px;
+        border: 2px solid #333333;
+        border-radius: 20px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        line-height: 39px;
+        padding: 0;
+    }
+
+    .btn:hover {
+        background: transparent;
+        color: #333333;
+        border: 2px solid #27ae60;
+        background-color: #27ae60;
+        color: #ffffff;
+    }
+
+    .btn span {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .btn:before {
+        height: 0%;
+        width: 2px;
+    }
+
+    .btn:after {
+        width: 0%;
+        height: 2px;
+    }
+
+    .btn hover:before {
+        height: 100%;
+
+    }
+
+    .btn:hover:after {
+        width: 100%;
+    }
+
+    .btn span:before,
+    .btn span:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        bottom: 0;
+        background: #000;
+        transition: all 0.3s ease;
+    }
+
+    .btn span:before {
+        width: 2px;
+        height: 0%;
+    }
+
+    .btn span:after {
+        width: 0%;
+        height: 2px;
+    }
+
+    .btn span:hover:before {
+        height: 100%;
+    }
+
+    .btn span:hover:after {
+        width: 100%;
+    }
+}
+
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
+@media all and (max-width:479px) {
+    .article {
+        position: relative;
+        top: 2%;
+        margin: 0 auto;
+        width: 50vw;
+        height: 65vh;
+        padding: 30px;
+        border: 2px solid #333333;
+        border-radius: 20px;
+    }
+
+    .btn {
+        width: 210px;
+        height: 40px;
+        padding: 10px 25px;
+        margin-right: -10px;
+        margin-bottom: 10px;
+        border: 2px solid #333333;
+        border-radius: 20px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        background: transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        line-height: 39px;
+        padding: 0;
+    }
+
+    .btn:hover {
+        background: transparent;
+        color: #333333;
+        border: 2px solid #27ae60;
+        background-color: #27ae60;
+        color: #ffffff;
+    }
+
+    .btn span {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .btn:before {
+        height: 0%;
+        width: 2px;
+    }
+
+    .btn:after {
+        width: 0%;
+        height: 2px;
+    }
+
+    .btn hover:before {
+        height: 100%;
+
+    }
+
+    .btn:hover:after {
+        width: 100%;
+    }
+
+    .btn span:before,
+    .btn span:after {
+        position: absolute;
+        content: "";
+        right: 0;
+        bottom: 0;
+        background: #000;
+        transition: all 0.3s ease;
+    }
+
+    .btn span:before {
+        width: 2px;
+        height: 0%;
+    }
+
+    .btn span:after {
+        width: 0%;
+        height: 2px;
+    }
+
+    .btn span:hover:before {
+        height: 100%;
+    }
+
+    .btn span:hover:after {
+        width: 100%;
+    }
+}

@@ -1,0 +1,11 @@
+.div {
+    position: relative;
+    height: 80vh;
+}
+
+/* 예: 슬라이드가 768px 이하에서는 높이를 자동으로 조정하도록 CSS 미디어 쿼리를 사용하는 예제 */
+@media (max-width: 768px) {
+    .main_slider .swiper-slide {
+        height: auto;
+    }
+}
